@@ -75,6 +75,9 @@
     <Reference Include="System">
       <Private>False</Private>
     </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml">
       <Private>False</Private>
     </Reference>
@@ -87,6 +90,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AsteroidManager.cs" />
+    <Compile Include="PlanetManager.cs" />
     <Compile Include="CollisionManager.cs" />
     <Compile Include="Enemy.cs" />
     <Compile Include="EnemyManager.cs" />
@@ -102,6 +106,17 @@
     <Compile Include="StarField.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Asteroid Belt AssaultContent\obj\x86\Debug\Asteroid Belt AssaultContent.contentproj.FileListAbsolute.txt" />
+    <Content Include="Asteroid Belt AssaultContent\obj\x86\Debug\ContentPipeline.xml" />
+    <Content Include="Asteroid Belt AssaultContent\Sounds\Explosion1.wav" />
+    <Content Include="Asteroid Belt AssaultContent\Sounds\Explosion2.wav" />
+    <Content Include="Asteroid Belt AssaultContent\Sounds\Explosion3.wav" />
+    <Content Include="Asteroid Belt AssaultContent\Sounds\Explosion4.wav" />
+    <Content Include="Asteroid Belt AssaultContent\Sounds\Shot1.wav" />
+    <Content Include="Asteroid Belt AssaultContent\Sounds\Shot2.wav" />
+    <Content Include="Asteroid Belt AssaultContent\Textures\PlanetSprite.png" />
+    <Content Include="Asteroid Belt AssaultContent\Textures\SpriteSheet.png" />
+    <Content Include="Asteroid Belt AssaultContent\Textures\TitleScreen.png" />
     <Content Include="Game.ico" />
     <Content Include="GameThumbnail.png" />
   </ItemGroup>
@@ -137,6 +152,18 @@
       <ProductName>Microsoft XNA Framework Redistributable 4.0</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Asteroid Belt AssaultContent\Asteroid Belt AssaultContent.contentproj" />
+    <None Include="Asteroid Belt AssaultContent\Fonts\Pericles14.spritefont" />
+    <None Include="Asteroid Belt AssaultContent\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="Asteroid Belt AssaultContent\obj\x86\Debug\Asteroid Belt AssaultContent.contentprojResolveAssemblyReference.cache" />
+    <None Include="Asteroid Belt AssaultContent\obj\x86\Debug\ResolveAssemblyReference.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Asteroid Belt AssaultContent\bin\AnyCPU\Debug\" />
+    <Folder Include="Asteroid Belt AssaultContent\bin\x86\Debug\" />
+    <Folder Include="Asteroid Belt AssaultContent\obj\Debug\TempPE\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />

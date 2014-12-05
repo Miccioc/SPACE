@@ -77,7 +77,7 @@ namespace Asteroid_Belt_Assault
 
             titleScreen = Content.Load<Texture2D>(@"Textures\TitleScreen");
             spriteSheet = Content.Load<Texture2D>(@"Textures\spriteSheet");
-            planetSprite = Content.Load<Texture2D>(@"Textures\planetSprite");
+            //planetSprite = Content.Load<Texture2D>(@"Textures\planetSprite");
 
             planetManager = new PlanetManager(
                  this.Window.ClientBounds.Width,
@@ -93,7 +93,7 @@ namespace Asteroid_Belt_Assault
                 200,
                 new Vector2(0, 30f),
                 spriteSheet,
-                new Rectangle(0, 450, 696, 670));
+                new Rectangle(0, 495, 2, 2));
 
             asteroidManager = new AsteroidManager(
                 10,

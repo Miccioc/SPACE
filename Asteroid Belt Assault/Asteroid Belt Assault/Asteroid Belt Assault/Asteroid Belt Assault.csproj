@@ -114,7 +114,6 @@
     <Content Include="Asteroid Belt AssaultContent\Sounds\Explosion4.wav" />
     <Content Include="Asteroid Belt AssaultContent\Sounds\Shot1.wav" />
     <Content Include="Asteroid Belt AssaultContent\Sounds\Shot2.wav" />
-    <Content Include="Asteroid Belt AssaultContent\Textures\PlanetSprite.png" />
     <Content Include="Asteroid Belt AssaultContent\Textures\SpriteSheet.png" />
     <Content Include="Asteroid Belt AssaultContent\Textures\TitleScreen.png" />
     <Content Include="Game.ico" />
